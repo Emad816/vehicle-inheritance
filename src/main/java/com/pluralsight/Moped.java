@@ -9,4 +9,11 @@ public class Moped extends Vehicle {
         this.hasPedals = hasPedals;
     }
 
+    public boolean isHasPedals() {
+        return hasPedals;
+    }
+
+    public void setHasPedals(boolean hasPedals) {
+        this.hasPedals = hasPedals;
+    }
 }

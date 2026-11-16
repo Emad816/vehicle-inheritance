@@ -8,5 +8,13 @@ public class Hovercraft extends Vehicle {
         super(color, numberOfPassengers, cargoCapacity, fuelCapacity);
         this.horsePower = horsePower;
     }
+
+    public int getHorsePower() {
+        return horsePower;
+    }
+
+    public void setHorsePower(int horsePower) {
+        this.horsePower = horsePower;
+    }
 }
 

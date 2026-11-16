@@ -7,4 +7,12 @@ public class SemiTruck extends Car {
         super(color, numberOfPassengers, cargoCapacity, fuelCapacity, vinNum);
         this.hasTrailer = hasTrailer;
     }
+
+    public boolean isHasTrailer() {
+        return hasTrailer;
+    }
+
+    public void setHasTrailer(boolean hasTrailer) {
+        this.hasTrailer = hasTrailer;
+    }
 }

@@ -14,9 +14,5 @@ public class Main {
 
         Moped reko = new Moped("blue", 2, 20,
                 35, false);
-
-
-
-
     }
 }
