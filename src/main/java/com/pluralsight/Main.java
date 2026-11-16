@@ -3,36 +3,20 @@ package com.pluralsight;
 public class Main {
     public static void main(String[] args) {
 
-        //testing moped class
-        Moped slowRide = new Moped();
-        slowRide.setColor("Black");
-        slowRide.setFuelCapacity(10);
+        Car honda = new Car("black", 4,
+                300, 60, 35643);
 
-        System.out.printf("slow ride color: " + slowRide.getColor() +
-                "\nslow ride fuel capacity: " + slowRide.getFuelCapacity());
+        SemiTruck nissan = new SemiTruck("red", 6, 200,
+                85, 43553, true);
 
-        //testing car class
-        Car car = new Car();
-        car.setColor("Red");
-        car.setNumberOfPassengers(4);
+        Hovercraft niko = new Hovercraft("navy blue", 12,
+                300, 300, 450);
 
-        System.out.printf("\nCar color: " + car.getColor() +
-                "\nCar seats: " + car.getNumberOfPassengers());
+        Moped reko = new Moped("blue", 2, 20,
+                35, false);
 
-        //testing semi truck class
-        SemiTruck truck = new SemiTruck();
-        truck.setCargoCapacity(120);
-        truck.setColor("green");
 
-        System.out.printf("\nsemi truck color: " + truck.getColor()+
-                "\nsemi truck cargo capacity: " + truck.getCargoCapacity());
 
-        //testing hovercraft class
-        Hovercraft niko = new Hovercraft();
-        niko.setNumberOfPassengers(8);
-        niko.setColor("navy blue");
 
-        System.out.printf("\nhovercraft seats: " + niko.getNumberOfPassengers() +
-                "\nhovercraft color: " + niko.getColor());
     }
 }
