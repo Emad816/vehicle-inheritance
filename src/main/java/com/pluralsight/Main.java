@@ -16,9 +16,23 @@ public class Main {
         car.setColor("Red");
         car.setNumberOfPassengers(4);
 
-        System.out.printf("Car color: " + car.getColor() +
+        System.out.printf("\nCar color: " + car.getColor() +
                 "\nCar seats: " + car.getNumberOfPassengers());
 
         //testing semi truck class
+        SemiTruck truck = new SemiTruck();
+        truck.setCargoCapacity(120);
+        truck.setColor("green");
+
+        System.out.printf("\nsemi truck color: " + truck.getColor()+
+                "\nsemi truck cargo capacity: " + truck.getCargoCapacity());
+
+        //testing hovercraft class
+        Hovercraft niko = new Hovercraft();
+        niko.setNumberOfPassengers(8);
+        niko.setColor("navy blue");
+
+        System.out.printf("\nhovercraft seats: " + niko.getNumberOfPassengers() +
+                "\nhovercraft color: " + niko.getColor());
     }
 }
