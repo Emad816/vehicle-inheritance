@@ -16,8 +16,8 @@ public class Main {
         car.setColor("Red");
         car.setNumberOfPassengers(4);
 
-        System.out.printf("Car color: " + car.getColor()"\n" +
-                "Car seats: " + car.getNumberOfPassengers());
+        System.out.printf("Car color: " + car.getColor() +
+                "\nCar seats: " + car.getNumberOfPassengers());
 
         //testing semi truck class
     }
